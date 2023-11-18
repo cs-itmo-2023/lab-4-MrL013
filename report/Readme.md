@@ -70,9 +70,10 @@ RUN apt-get install net-tools -y
 #### Проверка связи между контейнерами "mycontainer1" и "mycontainer2":
 
 ```docker exec -it mycontainer1 ping mycontainer2```
-```docker exec -it mycontainer2 ping mycontainer1```
 
 ![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/ping2.png)
+
+```docker exec -it mycontainer2 ping mycontainer1```
 
 ![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/ping1.png)
 
