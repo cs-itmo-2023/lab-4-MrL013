@@ -65,19 +65,19 @@ RUN apt-get install net-tools -y
 
 ```docker network inspect myNetwork```
 
-![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/crs/net.png)
+![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/net.png)
 
 #### Проверка связи между контейнерами "mycontainer1" и "mycontainer2":
 
 ```docker exec -it mycontainer1 ping mycontainer2```
 ```docker exec -it mycontainer2 ping mycontainer1```
 
-![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/crs/ping2.png)
+![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/ping2.png)
 
-![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/crs/ping1.png)
+![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/ping1.png)
 
 ### Заруск aafire из контейнера:
 
-![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/crs/fire.png)
+![image](https://github.com/cs-itmo-2023/lab-4-MrL013/blob/main/report/src/fire.png)
 
 #### пламя показывается - значит все процедуры были выполнены корректно.
