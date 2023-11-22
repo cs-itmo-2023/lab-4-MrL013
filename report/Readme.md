@@ -41,16 +41,16 @@ RUN apt-get install net-tools -y
 
 ###  Docker image:
 
-#### ```docker build -t aafire .``` - сборка образа с тегом "aafire"
+#### ```docker build -t aafire_cont .``` - сборка образа с тегом "aafire"
 
 
 ###  Установка и запуск контейнеров:
 
 #### На основе образа создаются два контейнера - "mycontainer1" и "mycontainer2":
 
-```docker run -t -it --name mycontainer2 aafire```
+```docker run --name mycontainer1 -it aafire_cont aafire```
 
-```docker run -t -it --name mycontainer1 aafire```
+```docker run --name mycontainer2 -it aafire_cont aafire```
 
 ###  Настройка сети:
 
